@@ -1,0 +1,12 @@
+{
+    "product": [
+      { "id": "001", "name": "Elite Robots", "image": "./images/elite.png" },
+      { "id": "002", "name": "Quadruped Robotics", "image": "./images/quadruped.png" },
+      { "id": "003", "name": "Kassow robots", "image": "./images/kassowrobots.png" },
+      { "id": "004", "name": "aubo", "image": "./images/aubo.png" }, 
+      { "id": "005", "name": "Robotcell", "image": "./images/robotcell.png" },
+      { "id": "006", "name": "Malocher", "image": "./images/malocher.png" },
+      { "id": "007", "name": "Dobot", "image": "./images/dobot.png" },
+      { "id": "008", "name": "Universal Robots", "image": "./images/universalRobots.jpeg" }
+    ]
+  }
