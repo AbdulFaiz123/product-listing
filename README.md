@@ -1,4 +1,4 @@
-##setup
+#setup
 
 #clone the git repo
 git clone 
