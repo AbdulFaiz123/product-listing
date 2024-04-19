@@ -7,7 +7,7 @@ export interface Product {
 
 export async function getProducts(id?:string): Promise<Product[]>  {
     try {
-        let url = "http://localhost:3001/product" 
+        let url = "https://mock-gjfh678x3-faiz002s-projects.vercel.app/product" 
         if(id) {
             url += "?id=" + id 
         }        
