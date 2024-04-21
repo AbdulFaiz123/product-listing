@@ -1,26 +1,6 @@
 import { getProducts, Product } from "../api/getProducts";
 import styles from "../app/dashboard/styles.module.css"
-
-const Header = () =>{
-  return (
-    <div className={styles.header}>
-      <div className={styles.logo_container}>
-        <img src="./images/logo.jpeg" alt="image" className={styles.logo} />
-      </div>
-      
-      <div>
-      <h1 className={styles.header_name}>Product Listing Page</h1>
-      </div>
-      <div className={styles.nav_item} >
-        <ul>
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Contact Us</li>
-        </ul>
-      </div>
-    </div>
-  )
-}
+import Header from "@/components/Header";
 
 const Home = async () => {
 	const products = await getProducts();
