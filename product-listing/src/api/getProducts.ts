@@ -1,4 +1,3 @@
-import {REACT_HOST_API} from "../utils/constant"
 
 export interface Product {
     id: number,
@@ -9,7 +8,7 @@ export interface Product {
 
 export async function getProducts(id?:string): Promise<Product[]>  {
     try {
-        let url = `${REACT_HOST_API}/product`;
+        let url = "https://mock-gjfh678x3-faiz002s-projects.vercel.app/product";
         if(id) {
             url += "?id=" + id 
         }        
